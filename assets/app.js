@@ -65,7 +65,7 @@ $(".search").keydown(function(event){
                 animateImgUrl = response['data'][i]['images']['fixed_height']['url'];
                 //rating
                 var rating = response['data'][i]['rating'];
-                //Assign image element to newImg variabl
+                //Assign image element to newImg vari
                 var newDiv = $('<div>'); 
                 var newP = $('<p>'); 
                 var newImg = $('<img>');
